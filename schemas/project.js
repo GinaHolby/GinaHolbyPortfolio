@@ -18,26 +18,19 @@ export default {
       title: "Project Color 1",
       type: "string",
     },
-    
+    {
+      name: "bublePlacement",
+      title: "Buble Placement",
+      type: "string",
+    },
     {
       name: "figmalink",
       title: "Figma Link",
       type: "string",
     },
     {
-      name: "figmalinkhide",
-      title: "Hide Figma Link write: hide",
-      type: "string",
-    },
-
-    {
       name: "nettsidelink",
       title: "Link nettside",
-      type: "string",
-    },
-    {
-      name: "hidenettsidelink",
-      title: " Hide Link nettside write: hide",
       type: "string",
     },
     {
@@ -45,12 +38,6 @@ export default {
       title: "Link notion",
       type: "string",
     },
-    {
-      name: "hidenotionlink",
-      title: " Hide Link notion write: hide",
-      type: "string",
-    },
-
     {
       name: "slug",
       title: "Slug",
@@ -75,6 +62,16 @@ export default {
       options: {
         hotspot: true,
       },
+    },
+    {
+      name: "information",
+      title: "Information",
+      type: "array",
+      of: [{ type: "block" },
+           { type: "twoImages"},
+           { type: "threeImages"},
+            
+        ],
     },
     //* PROBLEMS
     /* {
